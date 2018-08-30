@@ -3,10 +3,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[      3583,        133]
-NotebookOptionsPosition[      2824,         99]
-NotebookOutlinePosition[      3163,        114]
-CellTagsIndexPosition[      3120,        111]
+NotebookDataLength[      3672,        134]
+NotebookOptionsPosition[      2923,        100]
+NotebookOutlinePosition[      3262,        115]
+CellTagsIndexPosition[      3219,        112]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -42,7 +42,7 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"an", " ", "=", " ", 
+  RowBox[{"bn", " ", "=", " ", 
    RowBox[{
     FractionBox["1", "\[Pi]"], 
     RowBox[{"Integrate", "[", 
@@ -57,7 +57,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.7423855936057997`*^9, 3.742385679271555*^9}, 
    3.7423870137579393`*^9, 3.742387066701968*^9, {3.743417378731739*^9, 
    3.743417419636011*^9}, {3.7434174509721327`*^9, 3.7434174739404783`*^9}, 
-   3.743417556917198*^9}],
+   3.743417556917198*^9, {3.7434186317141857`*^9, 3.743418632246242*^9}}],
 
 Cell[BoxData["0"], "Output",
  CellChangeTimes->{3.7434175421984797`*^9}]
@@ -67,7 +67,7 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"bn", " ", "=", " ", 
+  RowBox[{"an", " ", "=", " ", 
    RowBox[{"Refine", "[", 
     RowBox[{
      RowBox[{
@@ -84,7 +84,8 @@ Cell[BoxData[
      RowBox[{"Element", "[", 
       RowBox[{"n", ",", " ", "Integers"}], "]"}]}], "]"}]}], ";"}]], "Input",
  CellChangeTimes->{{3.743417424387823*^9, 3.743417440900237*^9}, {
-  3.743417478066659*^9, 3.743417553245624*^9}}],
+  3.743417478066659*^9, 3.743417553245624*^9}, {3.7434186344476624`*^9, 
+  3.743418634629952*^9}}],
 
 Cell[BoxData[
  RowBox[{"-", 
@@ -120,12 +121,12 @@ Cell[602, 21, 469, 13, 54, "Input"],
 Cell[1074, 36, 72, 1, 32, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1183, 42, 628, 17, 54, "Input"],
-Cell[1814, 61, 72, 1, 32, "Output"]
+Cell[1183, 42, 676, 17, 54, "Input"],
+Cell[1862, 61, 72, 1, 32, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1923, 67, 662, 19, 54, InheritFromParent],
-Cell[2588, 88, 208, 7, 52, "Output"]
+Cell[1971, 67, 713, 20, 54, "Input"],
+Cell[2687, 89, 208, 7, 52, "Output"]
 }, Open  ]]
 }, Open  ]]
 }
